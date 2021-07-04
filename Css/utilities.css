@@ -30,3 +30,21 @@
     color: var(--primary);
 
 }
+
+.btn-secondary{
+    background: transparent;
+    border-color: var(--primary);
+    text-transform: uppercase;
+}
+.btn-secondary:hover{
+    color: var(--secondary);
+    background: var(--primary);
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.justify-center{
+    justify-content: center;
+}
