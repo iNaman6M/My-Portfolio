@@ -204,3 +204,32 @@ section.services .card-wrapper .card h2:hover,section.services .card-wrapper .ca
     margin-bottom: 2rem;
     font-family: 'Lato',sans-serif;
 }
+
+.blogs{
+    background: var(--pure);
+    
+}
+.blogs .blogs-h1{
+  text-align: center;
+
+}
+.blogs .blogs-p{
+    text-align: center;
+  
+  }
+.blogs .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+}
+.blogs .card-wrapper .card{
+    background: var(--pure);
+}
+.blogs .card-wrapper .card .card-content{
+    padding: 2rem;
+}
+.blogs .card-wrapper .card .card-content a{
+    text-decoration: none;
+}
+
